@@ -1,7 +1,11 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: endi
+authors:
+  name: Endilie Yacop Sucipto
+  title: Maintainer of Docusaurus
+  url: https://github.com/endiliey
+  image_url: https://github.com/endiliey.png
 tags: [hello, docusaurus]
 ---
 
