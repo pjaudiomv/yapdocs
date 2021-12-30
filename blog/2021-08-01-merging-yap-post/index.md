@@ -7,13 +7,13 @@ tags: [yap]
 
 # Merging a Regional Yap Server into a Zonal Yap Server
 
-:::tip
-
 This is the summary of a very long blog post,
 
 Use a `<!--` `truncate` `-->` comment to limit blog post size in the list view.
 
 <!--truncate-->
+
+:::tip
 
 Use the power of React to create interactive blog posts.
 
