@@ -25,5 +25,13 @@
             <description><![CDATA[It’s possible to exclude a result from Yap results by using a custom format. For example say you made a Temporary Closure format that had an ID of 2069. You could set in your config.php a custom query, which would exclude those in the response.]]></description>
             <content:encoded><![CDATA[<p>It’s possible to exclude a result from Yap results by using a custom format. For example say you made a Temporary Closure format that had an ID of 2069. You could set in your <code>config.php</code> a custom query, which would exclude those in the response.</p>]]></content:encoded>
         </item>
+        <item>
+            <title><![CDATA[First Blog Post]]></title>
+            <link>https://yapdocs.com/blog/excluding-format-post</link>
+            <guid>excluding-format-post</guid>
+            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
+            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+        </item>
     </channel>
 </rss>
