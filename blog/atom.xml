@@ -2,23 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yapdocs.com/blog</id>
     <title>Yap Docs Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2021-08-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yapdocs.com/blog"/>
     <subtitle>Yap Docs Blog</subtitle>
     <icon>https://yapdocs.com/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>welcome</id>
-        <link href="https://yapdocs.com/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img src="./docusaurus-plushie-banner.jpeg" alt="Docusaurus Plushie"/></p><p>The blog supports tags as well!</p><p><strong>And if you don&#x27;t want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
-        <author>
-            <name>Patrick Joyce</name>
-            <uri>https://github.com/pjaudiomv</uri>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Merging Yap Servers]]></title>
         <id>merging-yap-post</id>
@@ -38,8 +26,8 @@
         <id>excluding-format-post</id>
         <link href="https://yapdocs.com/blog/excluding-format-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <summary type="html"><![CDATA[It’s possible to exclude a result from Yap results by using a custom format. For example say you made a Temporary Closure format that had an ID of 2069. You could set in your config.php a custom query, which would exclude those in the response.]]></summary>
+        <content type="html"><![CDATA[<p>It’s possible to exclude a result from Yap results by using a custom format. For example say you made a Temporary Closure format that had an ID of 2069. You could set in your <code>config.php</code> a custom query, which would exclude those in the response.</p>]]></content>
         <author>
             <name>Patrick Joyce</name>
             <uri>https://github.com/pjaudiomv</uri>

@@ -4,17 +4,9 @@
         <title>Yap Docs Blog</title>
         <link>https://yapdocs.com/blog</link>
         <description>Yap Docs Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://yapdocs.com/blog/welcome</link>
-            <guid>welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img src="./docusaurus-plushie-banner.jpeg" alt="Docusaurus Plushie"/></p><p>The blog supports tags as well!</p><p><strong>And if you don&#x27;t want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[Merging Yap Servers]]></title>
             <link>https://yapdocs.com/blog/merging-yap-post</link>
@@ -30,8 +22,8 @@
             <link>https://yapdocs.com/blog/excluding-format-post</link>
             <guid>excluding-format-post</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <description><![CDATA[It’s possible to exclude a result from Yap results by using a custom format. For example say you made a Temporary Closure format that had an ID of 2069. You could set in your config.php a custom query, which would exclude those in the response.]]></description>
+            <content:encoded><![CDATA[<p>It’s possible to exclude a result from Yap results by using a custom format. For example say you made a Temporary Closure format that had an ID of 2069. You could set in your <code>config.php</code> a custom query, which would exclude those in the response.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
