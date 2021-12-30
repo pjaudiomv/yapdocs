@@ -45,7 +45,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         defaultMode: "dark"
       },
       navbar: {
-        title: 'My Site',
+        title: 'Yap Docs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -59,7 +59,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/pjaudiomv/yapdocs/',
             label: 'GitHub',
             position: 'right',
           },
@@ -72,7 +72,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Home',
                 to: '/',
               },
             ],
@@ -81,16 +81,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'BMLT Site',
+                href: 'https://bmlt.app',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/groups/bmltapp/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/BMLT_NA',
               },
             ],
           },
