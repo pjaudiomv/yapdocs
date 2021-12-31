@@ -17,8 +17,8 @@
 </code></pre><p>2) Begin an export from your source yap server, select only data and exclude the flags table.  See the screenshot below.  (Use a self-contained file)</p><p><img src="./mysql-export.png" alt="MySQL Export"/></p><p>3) After the file has been exported run the below on your system.  In the below example, “export.sql” is the file exported from Step 2 above.</p><pre><code class="language-bash">cat export.sql | sed -e “s/([0-9]*,/(NULL,/g” &gt; export-mod.sql
 </code></pre><p>4) Import export-mod.sql into the target yap server.  “export-mod.sql” is the output from the command run locally in Step 3 above.</p><p>5) Your phone numbers must have explicit service body overrides in order to pull configuration values from the database (you can use either override_service_body_id or override_service_body_config_id).  One changes your service body for call routing and the other selects configuration, respectively.</p>]]></content>
         <author>
-            <name>Danny Gershman</name>
-            <uri>https://github.com/dgershman</uri>
+            <name>FortySeven Bot</name>
+            <uri>https://github.com/fortysevenbot</uri>
         </author>
     </entry>
     <entry>
