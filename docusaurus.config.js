@@ -108,7 +108,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Yap Docs. Built with Docusaurus.`,
+        copyright: `${new Date().getFullYear()} Yap Docs. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
