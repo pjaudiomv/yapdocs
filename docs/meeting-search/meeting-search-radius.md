@@ -1,10 +1,12 @@
 ---
-sidebar_position: 1
+title: Meeting Search Radius
+sidebar_position: 7
 ---
 
-# Meeting Search Radius
+## Meeting Search Radius
 
 ---
+
 
 Change the default meeting search radius, this can be in miles or a negative number which would set the radius at the first n results. You can change this in your `config.php` with the following:
 
