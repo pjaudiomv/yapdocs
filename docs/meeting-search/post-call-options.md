@@ -3,10 +3,7 @@ title: Post Call Options
 sidebar_position: 9
 ---
 
-# Post Call Options
-
 ---
-
 
 ## Making SMS results for voice calls optional
 

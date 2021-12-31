@@ -3,10 +3,7 @@ title: SMS Gateway
 sidebar_position: 11
 ---
 
-## SMS Gateway
-
 ---
-
 
 In order to use SMS to get a list of meetings you will configure Messaging to point to Webook sms-gateway.php.
 

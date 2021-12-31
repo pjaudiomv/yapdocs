@@ -3,10 +3,7 @@ title: Results Counts Maximums
 sidebar_position: 10
 ---
 
-## Results Counts Maximums
-
 ---
-
 
 The default number of meeting results is 5.  You can change this in your `config.php` with the following:
 

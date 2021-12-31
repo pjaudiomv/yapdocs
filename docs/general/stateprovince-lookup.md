@@ -1,8 +1,7 @@
 ---
+title: State/Province Lookup
 sidebar_position: 8
 ---
-
-## State/Province Lookup
 
 ---
 

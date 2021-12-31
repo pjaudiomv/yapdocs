@@ -3,8 +3,6 @@ title: Adding Location Text
 sidebar_position: 1
 ---
 
-## Adding Location Text
-
 ---
 
 **New Yap 3.0**

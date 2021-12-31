@@ -4,6 +4,7 @@ sidebar_position: 1
 
 # Setup
 
+---
 
 **This will require that you have an SSL certificate installed on your webserver to transit a secure connection.  This is required by Twilio.**
 
