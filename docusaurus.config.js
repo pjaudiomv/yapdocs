@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'Yap Docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Yap is cool',
   url: 'https://yapdocs.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -47,7 +47,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       navbar: {
         title: 'Yap Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Yap Logo',
           src: 'img/yap.png',
         },
         items: [
@@ -59,7 +59,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           // },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/pjaudiomv/yapdocs/',
+            href: 'https://github.com/bmlt-enabled/yap/',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,12 +103,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/pjaudiomv/yapdocs',
+                href: 'https://github.com/bmlt-enabled/yap',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Yap Docs. Built with Docusaurus.`,
+        copyright: `${new Date().getFullYear()} Yap Docs. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
