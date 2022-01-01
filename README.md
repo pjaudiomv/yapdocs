@@ -8,7 +8,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ### Installation
 
 ```
-$ npm
+$ npm install
 ```
 
 ### Local Development
@@ -34,15 +34,3 @@ $ GIT_USER=<Your GitHub username> USE_SSH=true npm run deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-
-
-```
-General
-    Language Options
-    Location Lookup Bias
-    Postal Code Lengths
-    State/Province Lookup
-    Tollfree Bias
-    Voice Greeting
-    Voice Recognition Optimizations
-```
