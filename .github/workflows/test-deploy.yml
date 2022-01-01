@@ -1,20 +1,21 @@
-name: Test deployment
+name: Build Test
 
 on:
   pull_request:
     branches: [main]
 
 jobs:
-  test-deploy:
-    name: Test deployment
-    runs-on: ubuntu-latest
+  build-test:
+    runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
       - uses: actions/setup-node@v2
         with:
           node-version: 14.x
           cache: npm
-      - name: Test build
+
+      - name: Install and Build 🔧
         run: |
           npm ci
           npm run build
