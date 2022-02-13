@@ -114,5 +114,25 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'UXFW8XBXNC',
+
+        // Public API key: it is safe to commit it
+        apiKey: '4d7ab463ced38dbcd18ce7132173659b',
+
+        indexName: 'yapdocs',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        // externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        //... other Algolia params
+      },
     }),
 });
